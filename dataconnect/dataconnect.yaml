@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "api-english-text-to-speech"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "api-english-text-to-speech-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]

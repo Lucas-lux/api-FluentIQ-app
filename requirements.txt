@@ -1,0 +1,13 @@
+Flask
+Flask-Cors
+openai
+openai-whisper
+gTTS
+python-dotenv
+pytest
+pytest-flask
+requests
+pyjwt
+flask-jwt-extended
+firebase-admin
+firebase-tools
