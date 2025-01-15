@@ -5,7 +5,7 @@ from flask import Flask
 import sys
 sys.path.insert(0, '.')
 
-from app import app
+from . import app
 
 # Crée un dossier pour stocker les fichiers audio générés
 os.makedirs("./tests/outputs", exist_ok=True)
