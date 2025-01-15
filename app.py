@@ -13,14 +13,6 @@ from flask_cors import CORS
 from dotenv import load_dotenv
 import jwt
 from flask_jwt_extended import JWTManager, jwt_required, create_access_token
-import firebase_admin
-from firebase_admin import credentials, auth
-from werkzeug.security import generate_password_hash
-
-
-# Charger les informations d'authentification Firebase
-cred = credentials.Certificate('path/to/your/firebase-adminsdk.json')  # Remplacez par le chemin de votre fichier JSON
-firebase_admin.initialize_app(cred)
 
 # Load environment variables from .env file
 load_dotenv()
